@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+.UMT-usrProfile { max-width:600px; margin:0 auto; text-align:center; font-family: Arial, Helvetica, sans-serif; background:#f7f7f7; border:3px solid #ddd; }
+.UMT-header { font-size: 18px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; background:#ddd; padding: 10px; color:#888; margin:0; border-bottom:3px solid #ccc; box-shadow: 0 2px 0 0 #fff; }
+.UMT-formfield { margin:10px 0; font-size: 14px; }
+.UMT-formfield *  { vertical-align: middle; }
+.UMT-formfield label { width:160px; display: inline-block; text-align: left; color:#666; }
+.UMT-formfield input { width:200px; }
+.UMT-formfield span { display:inline-block; width:250px; height:30px; background:#fff; padding:2px 5px; line-height: 26px; border:1px solid #ddd; color:#888; text-align: left; }

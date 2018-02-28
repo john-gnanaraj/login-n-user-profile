@@ -1,0 +1,22 @@
+<app-my-profile></app-my-profile>
+<p>
+  profile works !
+</p>
+<div class="UMT-usrProfile" *ngFor="let item of items">
+  <div class="UMT-formfield"><label>Emp. Id</label><span class="form-control">{{item.emp_id}}</span></div>
+  <div class="UMT-formfield"><label>Firstname</label><span class="form-control">{{item.fname}}</span></div>
+  <div class="UMT-formfield"><label>Lastname</label><span class="form-control">{{item.lname}}</span></div>
+  <div class="UMT-formfield"><label>Gender</label><span class="form-control">{{item.gender}}</span></div>
+  <div class="UMT-formfield"><label>DOB</label><span class="form-control">{{item.dob}}</span></div>
+  <div class="UMT-formfield"><label>DOJ</label><span class="form-control">{{item.dob}}</span></div>
+  <div class="UMT-formfield"><label>Email</label><span class="form-control">{{item.email_id}}</span></div>
+  <div class="UMT-formfield"><label>Designation</label><span class="form-control">{{item.designation}}</span></div>
+  <div class="UMT-formfield"><label>Team</label><span class="form-control">{{item.team}}</span></div>
+  <div class="UMT-formfield"><label>Dept</label><span class="form-control">{{item.dept}}</span></div>
+  <div class="UMT-formfield"><label>Division</label><span class="form-control">{{item.division}}</span></div>
+  <div class="UMT-formfield"><label>Contact No.</label><span class="form-control">{{item.contact_no}}</span></div>
+  <div class="UMT-formfield"><label>Emg. Contact No.</label><span class="form-control">{{item.emergency_contact_no}}</span></div>
+  <div class="UMT-formfield"><label>Role</label><span class="form-control">{{item.role}}</span></div>
+  <div class="UMT-formfield"><label>Profile Pic</label><span class="form-control">{{item.profile_pic}}</span></div>  
+  <div class="UMT-formfield"><label>Shift Type</label><span class="form-control">{{item.shift_type}}</span></div>
+</div>
