@@ -21,10 +21,8 @@ body { background:#eee; }
 .UMT-rgt-sec h4 { color: #555; font-size: 16px; margin: 30px 0 15px; }
 .UMT-about-details { padding: 0 50px; }
 .UMT-about-details p { font-size: 14px; color:#636363; } 
-.UMT-official-info { padding: 0 50px; border-top: 1px solid #e4e4e4; margin: 40px 0 0; }
-.UMT-official-list { column-count: 2; }
-.UMT-personal-info { padding: 0 50px; border-top: 1px solid #e4e4e4; margin: 40px 0 0; }
-.UMT-personal-list { column-count: 2; }
+.UMT-official-info, .UMT-personal-info { padding: 0 50px; border-top: 1px solid #e4e4e4; margin: 40px 0 0; }
+.UMT-official-list, .UMT-personal-list { column-count: 2; }
 .UMT-lbl-bg { background:url(img/iconsprite.png) no-repeat left top; padding-left: 40px; }
 .UMT-doj { background-position: 5px 6px; }
 .UMT-email { background-position: 5px -30px; }
